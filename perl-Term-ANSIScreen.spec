@@ -30,7 +30,7 @@ for cursor positioning, :screen for screen control, as well as
 %description -l pl
 Term::ANSIScreen to nadzbiór Term::ANSIColor (przynajmniej dla wersji
 1.04 tamtego modu³u). Oprócz funkcji generuj±cych sekwencje dla
-kolorów ekportowanych przez :color i :constants, ten modu³ ma tak¿e
+kolorów eksportowanych przez :color i :constants, ten modu³ ma tak¿e
 :cursor do ustawiania kursora, :screen do sterowania ekranem, a tak¿e
 :keyboard do mapowania klawiszy.
 
