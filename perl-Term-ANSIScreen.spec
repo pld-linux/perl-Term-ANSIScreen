@@ -11,7 +11,7 @@ Name:		perl-Term-ANSIScreen
 Version:	1.42
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fae3a1c63e16905bf3d8a923d6f928b4
@@ -40,7 +40,6 @@ kolorów ekportowanych przez :color i :constants, ten modu³ ma tak¿e
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
