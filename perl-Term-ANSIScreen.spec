@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Term
-%define	pnam	ANSIScreen
+%define		pdir	Term
+%define		pnam	ANSIScreen
 Summary:	Term::ANSIScreen - terminal control using ANSI escape sequences
 Summary(pl):	Term::ANSIScreen - sterowanie terminalem przy u¿yciu sekwencji ANSI
 Name:		perl-Term-ANSIScreen
