@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	ANSIScreen
 Summary:	Term::ANSIScreen - terminal control using ANSI escape sequences
-Summary(pl):	Term::ANSIScreen - sterowanie terminalem przy uøyciu sekwencji ANSI
+Summary(pl.UTF-8):   Term::ANSIScreen - sterowanie terminalem przy u≈ºyciu sekwencji ANSI
 Name:		perl-Term-ANSIScreen
 Version:	1.42
 Release:	1
@@ -27,11 +27,11 @@ exported by :color and :constants, this module also features :cursor
 for cursor positioning, :screen for screen control, as well as
 :keyboard for key mapping.
 
-%description -l pl
-Term::ANSIScreen to nadzbiÛr Term::ANSIColor (przynajmniej dla wersji
-1.04 tamtego modu≥u). OprÛcz funkcji generuj±cych sekwencje dla
-kolorÛw eksportowanych przez :color i :constants, ten modu≥ ma takøe
-:cursor do ustawiania kursora, :screen do sterowania ekranem, a takøe
+%description -l pl.UTF-8
+Term::ANSIScreen to nadzbi√≥r Term::ANSIColor (przynajmniej dla wersji
+1.04 tamtego modu≈Çu). Opr√≥cz funkcji generujƒÖcych sekwencje dla
+kolor√≥w eksportowanych przez :color i :constants, ten modu≈Ç ma tak≈ºe
+:cursor do ustawiania kursora, :screen do sterowania ekranem, a tak≈ºe
 :keyboard do mapowania klawiszy.
 
 %prep
