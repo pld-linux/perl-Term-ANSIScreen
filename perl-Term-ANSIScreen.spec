@@ -9,7 +9,7 @@ Summary:	Term::ANSIScreen - terminal control using ANSI escape sequences
 Summary(pl.UTF-8):	Term::ANSIScreen - sterowanie terminalem przy użyciu sekwencji ANSI
 Name:		perl-Term-ANSIScreen
 Version:	1.42
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
