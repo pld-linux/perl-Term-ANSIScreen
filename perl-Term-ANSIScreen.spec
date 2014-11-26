@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Term
 %define		pnam	ANSIScreen
+%include	/usr/lib/rpm/macros.perl
 Summary:	Term::ANSIScreen - terminal control using ANSI escape sequences
 Summary(pl.UTF-8):	Term::ANSIScreen - sterowanie terminalem przy użyciu sekwencji ANSI
 Name:		perl-Term-ANSIScreen
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fae3a1c63e16905bf3d8a923d6f928b4
+URL:		http://search.cpan.org/dist/Term-ANSIScreen/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
