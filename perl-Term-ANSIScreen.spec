@@ -4,7 +4,6 @@
 
 %define		pdir	Term
 %define		pnam	ANSIScreen
-%include	/usr/lib/rpm/macros.perl
 Summary:	Term::ANSIScreen - terminal control using ANSI escape sequences
 Summary(pl.UTF-8):	Term::ANSIScreen - sterowanie terminalem przy użyciu sekwencji ANSI
 Name:		perl-Term-ANSIScreen
