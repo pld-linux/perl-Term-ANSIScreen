@@ -7,13 +7,12 @@
 Summary:	Term::ANSIScreen - terminal control using ANSI escape sequences
 Summary(pl.UTF-8):	Term::ANSIScreen - sterowanie terminalem przy użyciu sekwencji ANSI
 Name:		perl-Term-ANSIScreen
-Version:	1.42
-Release:	3
-# same as perl
-License:	GPL v1+ or Artistic
+Version:	1.50
+Release:	1
+License:	CC0 v1.0
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fae3a1c63e16905bf3d8a923d6f928b4
+# Source0-md5:	0d03d741b466aa206cec62f36e8cbfe8
 URL:		http://search.cpan.org/dist/Term-ANSIScreen/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -38,7 +37,7 @@ kolorów eksportowanych przez :color i :constants, ten moduł ma także
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
+%{__perl} -I. Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
 
@@ -55,6 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README
+%doc Changes README
 %{perl_vendorlib}/Term/ANSIScreen.pm
 %{_mandir}/man3/*
